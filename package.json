@@ -1,0 +1,13 @@
+{
+  "name": "ccip-chain-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch Chainlink CCIP chains and save to JSON file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
