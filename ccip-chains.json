@@ -1,415 +1,533 @@
 [
   {
+    "chainId": 1,
     "name": "Ethereum",
     "rpc": "ETHEREUM_RPC",
     "router": "0x80226fc0Ee2b096224EeAc085Bb9a8cba1146f7D",
     "chainSelector": "5009297550715157269",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet"
   },
   {
+    "chainId": 10,
     "name": "OP Mainnet",
     "rpc": "OP_MAINNET_RPC",
     "router": "0x3206695CaE29952f4b0c22a169725a865bc8Ce0f",
     "chainSelector": "3734403246176062136",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-optimism-1"
   },
   {
+    "chainId": 25,
     "name": "Cronos",
     "rpc": "CRONOS_RPC",
     "router": "0xE26B0A098D861d5C7d9434aD471c0572Ca6EAa67",
     "chainSelector": "1456215246176062136",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "cronos-mainnet"
   },
   {
+    "chainId": 30,
     "name": "Rootstock",
     "rpc": "ROOTSTOCK_RPC",
     "router": "0xCe7aFb0BF5F73BfDB5e9E04976eBac2005746bD0",
     "chainSelector": "11964252391146578476",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "rootstock-mainnet"
   },
   {
+    "chainId": 56,
     "name": "BNB Chain",
     "rpc": "BNB_CHAIN_RPC",
     "router": "0x34B03Cb9086d7D758AC55af71584F81A598759FE",
     "chainSelector": "11344663589394136015",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "binance_smart_chain-mainnet"
   },
   {
+    "chainId": 100,
     "name": "Gnosis",
     "rpc": "GNOSIS_RPC",
     "router": "0x4aAD6071085df840abD9Baf1697d5D5992bDadce",
     "chainSelector": "465200170687744372",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "gnosis_chain-mainnet"
   },
   {
+    "chainId": 109,
     "name": "Shibarium",
     "rpc": "SHIBARIUM_RPC",
     "router": "0xc2CA5d5C17911e4B838194b51585DdF8fe5116C1",
     "chainSelector": "3993510008929295315",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "shibarium-mainnet"
   },
   {
+    "chainId": 130,
     "name": "Unichain",
     "rpc": "UNICHAIN_RPC",
     "router": "0x68891f5F96695ECd7dEdBE2289D1b73426ae7864",
     "chainSelector": "1923510103922296319",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-unichain-1"
   },
   {
+    "chainId": 137,
     "name": "Polygon",
     "rpc": "POLYGON_RPC",
     "router": "0x849c5ED5a80F5B408Dd4969b78c2C8fdf0565Bfe",
     "chainSelector": "4051577828743386545",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "polygon-mainnet"
   },
   {
+    "chainId": 146,
     "name": "Sonic",
     "rpc": "SONIC_RPC",
     "router": "0xB4e1Ff7882474BB93042be9AD5E1fA387949B860",
     "chainSelector": "1673871237479749969",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "sonic-mainnet"
   },
   {
+    "chainId": 177,
     "name": "HashKey Chain",
     "rpc": "HASHKEY_CHAIN_RPC",
     "router": "0xf2Fd62c083F3BF324e99ce157D1a42d7EbA77f1d",
     "chainSelector": "7613811247471741961",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-hashkey-1"
   },
   {
+    "chainId": 185,
     "name": "Mint",
     "rpc": "MINT_RPC",
     "router": "0x1d86012266F214a368766C2B9329FdCC75B1Ce6b",
     "chainSelector": "17164792800244661392",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "mint-mainnet"
   },
   {
+    "chainId": 196,
     "name": "X Layer",
     "rpc": "X_LAYER_RPC",
     "router": "0xF2b6Cb7867EB5502C3249dD37D7bc1Cc148e5232",
     "chainSelector": "3016212468291539606",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-xlayer-1"
   },
   {
+    "chainId": 204,
     "name": "opBNB",
     "rpc": "OPBNB_RPC",
     "router": "0xa3ca4306B9256aAB177C47A18b43593F03378976",
     "chainSelector": "465944652040885897",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "binance_smart_chain-mainnet-opbnb-1"
   },
   {
+    "chainId": 223,
     "name": "B²",
     "rpc": "B²_RPC",
     "router": "0x9C34e9A192d7a4c2cf054668C1122C028C43026c",
     "chainSelector": "5406759801798337480",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "bitcoin-mainnet-bsquared-1"
   },
   {
+    "chainId": 228,
     "name": "Mind Network",
     "rpc": "MIND_NETWORK_RPC",
     "router": "0x3E13485E767D53f938cD4AF502111d3fF8726A2D",
     "chainSelector": "11690709103138290329",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "mind-mainnet"
   },
   {
+    "chainId": 232,
     "name": "Lens",
     "rpc": "LENS_RPC",
     "router": "0x498F3feBAd3ff75e05b7847B37a301fc2DA6fDC0",
     "chainSelector": "5608378062013572713",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "lens-mainnet"
   },
   {
+    "chainId": 252,
     "name": "Fraxtal",
     "rpc": "FRAXTAL_RPC",
     "router": "0x4bdF20477744Ec5F9DE738b5cC9ACd01763905ee",
     "chainSelector": "1462016016387883143",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "fraxtal-mainnet"
   },
   {
+    "chainId": 295,
     "name": "Hedera",
     "rpc": "HEDERA_RPC",
     "router": "0x87b400B4d4F5Fe2Fdb6FBEa66C38003ced565b76",
     "chainSelector": "3229138320728879060",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "hedera-mainnet"
   },
   {
+    "chainId": 324,
     "name": "ZKsync",
     "rpc": "ZKSYNC_RPC",
     "router": "0x748Fd769d81F5D94752bf8B0875E9301d0ba71bB",
     "chainSelector": "1562403441176082196",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-zksync-1"
   },
   {
+    "chainId": 388,
     "name": "Cronos zkEVM",
     "rpc": "CRONOS_ZKEVM_RPC",
     "router": "0x17b828DF8679D68318f0849C1221AD1760699eCb",
     "chainSelector": "8788096068760390840",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "cronos-zkevm-mainnet"
   },
   {
+    "chainId": 480,
     "name": "World Chain",
     "rpc": "WORLD_CHAIN_RPC",
     "router": "0x5fd9E4986187c56826A3064954Cfa2Cf250cfA0f",
     "chainSelector": "2049429975587534727",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-worldchain-1"
   },
   {
+    "chainId": 592,
     "name": "Astar",
     "rpc": "ASTAR_RPC",
     "router": "0x8D5c5CB8ec58285B424C93436189fB865e437feF",
     "chainSelector": "6422105447186081193",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "polkadot-mainnet-astar"
   },
   {
+    "chainId": 999,
     "name": "HyperEVM",
     "rpc": "HYPEREVM_RPC",
     "router": "0x13b3332b66389B1467CA6eBd6fa79775CCeF65ec",
     "chainSelector": "2442541497099098535",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "hyperliquid-mainnet"
   },
   {
+    "chainId": 1088,
     "name": "Metis Andromeda",
     "rpc": "METIS_ANDROMEDA_RPC",
     "router": "0x7b9FB8717D306e2e08ce2e1Efa81F026bf9AD13c",
     "chainSelector": "8805746078405598895",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-metis-1"
   },
   {
+    "chainId": 1101,
     "name": "Polygon zkEVM",
     "rpc": "POLYGON_ZKEVM_RPC",
     "router": "0xA9999937159B293c72e2367Ce314cb3544e7C1a3",
     "chainSelector": "4348158687435793198",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-polygon-zkevm-1"
   },
   {
+    "chainId": 1111,
     "name": "Wemix",
     "rpc": "WEMIX_RPC",
     "router": "0x7798b795Fde864f4Cd1b124a38Ba9619B7F8A442",
     "chainSelector": "5142893604156789321",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "wemix-mainnet"
   },
   {
+    "chainId": 1116,
     "name": "Core",
     "rpc": "CORE_RPC",
     "router": "0xF7Cc8b0B5263A74AFBb1a2ac87FfF1CF7E62152f",
     "chainSelector": "1224752112135636129",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "core-mainnet"
   },
   {
+    "chainId": 1135,
     "name": "Lisk",
     "rpc": "LISK_RPC",
     "router": "0x0145c1fbA8a16128c1061eB9CE7eC3cadb8e30c7",
     "chainSelector": "15293031020466096408",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "lisk-mainnet"
   },
   {
+    "chainId": 1329,
     "name": "Sei Network",
     "rpc": "SEI_NETWORK_RPC",
     "router": "0xAba60dA7E88F7E8f5868C2B6dE06CB759d693af0",
     "chainSelector": "9027416829622342829",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "sei-mainnet"
   },
   {
+    "chainId": 1750,
     "name": "Metal L2",
     "rpc": "METAL_L2_RPC",
     "router": "0x020c61ECEEE0E5DC32F2503AbB6E070fa0EbBfaA",
     "chainSelector": "13447077090413146373",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "metal-mainnet"
   },
   {
+    "chainId": 1868,
     "name": "Soneium",
     "rpc": "SONEIUM_RPC",
     "router": "0x8C8B88d827Fe14Df2bc6392947d513C86afD6977",
     "chainSelector": "12505351618335765396",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "soneium-mainnet"
   },
   {
+    "chainId": 2020,
     "name": "Ronin",
     "rpc": "RONIN_RPC",
     "router": "0x46527571D5D1B68eE7Eb60B18A32e6C60DcEAf99",
     "chainSelector": "6916147374840168594",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ronin-mainnet"
   },
   {
+    "chainId": 2741,
     "name": "Abstract",
     "rpc": "ABSTRACT_RPC",
     "router": "0x09521B0B5BB2d4406124c0207Cf551829B45f84d",
     "chainSelector": "3577778157919314504",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "abstract-mainnet"
   },
   {
+    "chainId": 3637,
     "name": "Botanix",
     "rpc": "BOTANIX_RPC",
     "router": "0x5EE890c89B5Ae75cBC516Dd53345e38E5B39B664",
     "chainSelector": "4560701533377838164",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "bitcoin-mainnet-botanix"
   },
   {
+    "chainId": 4200,
     "name": "Merlin",
     "rpc": "MERLIN_RPC",
     "router": "0x8Be462D21b05eEeF81a3AA384b7C6CF18597232A",
     "chainSelector": "241851231317828981",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "bitcoin-merlin-mainnet"
   },
   {
+    "chainId": 5000,
     "name": "Mantle",
     "rpc": "MANTLE_RPC",
     "router": "0x670052635a9850bb45882Cb2eCcF66bCff0F41B7",
     "chainSelector": "1556008542357238666",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-mantle-1"
   },
   {
+    "chainId": 5330,
     "name": "Superseed",
     "rpc": "SUPERSEED_RPC",
     "router": "0xAD93FBB3A9a077F896e1F57739e43dEd063f181F",
     "chainSelector": "470401360549526817",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "superseed-mainnet"
   },
   {
+    "chainId": 8453,
     "name": "Base",
     "rpc": "BASE_RPC",
     "router": "0x881e3A65B4d4a04dD529061dd0071cf975F58bCD",
     "chainSelector": "15971525489660198786",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-base-1"
   },
   {
+    "chainId": 33139,
     "name": "Apechain",
     "rpc": "APECHAIN_RPC",
     "router": "0xe9c6945281028cb6530d43F998eE539dFE2a9191",
     "chainSelector": "14894068710063348487",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "apechain-mainnet"
   },
   {
+    "chainId": 34443,
     "name": "Mode",
     "rpc": "MODE_RPC",
     "router": "0x24C40f13E77De2aFf37c280BA06c333531589bf1",
     "chainSelector": "7264351850409363825",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-mode-1"
   },
   {
+    "chainId": 42161,
     "name": "Arbitrum One",
     "rpc": "ARBITRUM_ONE_RPC",
     "router": "0x141fa059441E0ca23ce184B6A78bafD2A517DdE8",
     "chainSelector": "4949039107694359620",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-arbitrum-1"
   },
   {
+    "chainId": 42220,
     "name": "Celo",
     "rpc": "CELO_RPC",
     "router": "0xfB48f15480926A4ADf9116Dca468bDd2EE6C5F62",
     "chainSelector": "1346049177634351622",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "celo-mainnet"
   },
   {
+    "chainId": 43111,
     "name": "Hemi",
     "rpc": "HEMI_RPC",
     "router": "0x5e48912cFDd14417D6856872341f894AE0EF07DD",
     "chainSelector": "1804312132722180201",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "hemi-mainnet"
   },
   {
+    "chainId": 43114,
     "name": "Avalanche",
     "rpc": "AVALANCHE_RPC",
     "router": "0xF4c7E640EdA248ef95972845a62bdC74237805dB",
     "chainSelector": "6433500567565415381",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "avalanche-mainnet"
   },
   {
+    "chainId": 48900,
     "name": "Zircuit",
     "rpc": "ZIRCUIT_RPC",
     "router": "0x0A6436B56378D305729713ac332ccdCD367f3918",
     "chainSelector": "17198166215261833993",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-zircuit-1"
   },
   {
+    "chainId": 57073,
     "name": "Ink",
     "rpc": "INK_RPC",
     "router": "0xca7c90A52B44E301AC01Cb5EB99b2fD99339433A",
     "chainSelector": "3461204551265785888",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-ink-1"
   },
   {
+    "chainId": 59144,
     "name": "Linea",
     "rpc": "LINEA_RPC",
     "router": "0x549FEB73F2348F6cD99b9fc8c69252034897f06C",
     "chainSelector": "4627098889531055414",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-linea-1"
   },
   {
+    "chainId": 60808,
     "name": "BOB",
     "rpc": "BOB_RPC",
     "router": "0x827716e74F769AB7b6bb374A29235d9c2156932C",
     "chainSelector": "3849287863852499584",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "bitcoin-mainnet-bob-1"
   },
   {
+    "chainId": 80094,
     "name": "Berachain",
     "rpc": "BERACHAIN_RPC",
     "router": "0x71a275704c283486fBa26dad3dd0DB78804426eF",
     "chainSelector": "1294465214383781161",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "berachain-mainnet"
   },
   {
+    "chainId": 81457,
     "name": "Blast",
     "rpc": "BLAST_RPC",
     "router": "0x12e0B8E349C6fb7E6E40713E8125C3cF1127ea8C",
     "chainSelector": "4411394078118774322",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-blast-1"
   },
   {
+    "chainId": 98866,
     "name": "Plume",
     "rpc": "PLUME_RPC",
     "router": "0x5C4f4622AD0EC4a47e04840db7E9EcA8354109af",
     "chainSelector": "17912061998839310979",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "plume-mainnet"
   },
   {
+    "chainId": 167000,
     "name": "Taiko Alethia",
     "rpc": "TAIKO_ALETHIA_RPC",
     "router": "0xeb2502AeD3Cfd6E37e292c6B837a8FFF9a042367",
     "chainSelector": "16468599424800719238",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-taiko-1"
   },
   {
+    "chainId": 200901,
     "name": "Bitlayer",
     "rpc": "BITLAYER_RPC",
     "router": "0x6c0aA29330c58dda07faD577fF5a0280823a910c",
     "chainSelector": "7937294810946806131",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "bitcoin-mainnet-bitlayer-1"
   },
   {
+    "chainId": 534352,
     "name": "Scroll",
     "rpc": "SCROLL_RPC",
     "router": "0x9a55E8Cab6564eb7bbd7124238932963B8Af71DC",
     "chainSelector": "13204309965629103672",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "ethereum-mainnet-scroll-1"
   },
   {
+    "chainId": 747474,
     "name": "Katana Mainnet",
     "rpc": "KATANA_MAINNET_RPC",
     "router": "0x7c19b79D2a054114Ab36ad758A36e92376e267DA",
     "chainSelector": "2459028469735686113",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "polygon-mainnet-katana"
   },
   {
+    "chainId": 7777777,
     "name": "Zora",
     "rpc": "ZORA_RPC",
     "router": "0x65b40941fa86Fc444043257cd677a7F0bD034F79",
     "chainSelector": "3555797439612589184",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "zora-mainnet"
   },
   {
+    "chainId": 21000000,
     "name": "Corn",
     "rpc": "CORN_RPC",
     "router": "0x183f6069A0D5c2DEC1Dd1eCF3B1581e12dEb4Efe",
     "chainSelector": "9043146809313071210",
-    "chainFamily": "evm"
+    "chainFamily": "evm",
+    "destNetworkName": "corn-mainnet"
   },
   {
+    "chainId": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
     "name": "Solana",
     "rpc": "SOLANA_RPC",
     "router": "Ccip842gzYHhvdDkSyi2YVCoAWPbYJoApMFzSxQroE9C",
     "chainSelector": "124615329519749607",
-    "chainFamily": "svm"
+    "chainFamily": "svm",
+    "destNetworkName": "solana-mainnet"
   }
 ]

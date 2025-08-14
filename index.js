@@ -28,21 +28,25 @@ const fetchCcipChains = async () => {
         const rpc =
           chain.displayName.replaceAll(" ", "_").toUpperCase() + "_RPC";
         routers.push({
+          chainId: chain.chainId,
           name: chain.displayName,
           rpc,
           router: chain.router,
           chainSelector: chain.selector,
           chainFamily: chain.chainFamily,
+          destNetworkName: chain.internalId
         });
       }
     }
 
-    const formatted = routers.map(({ name, rpc, router, chainSelector, chainFamily }) => ({
+    const formatted = routers.map(({ chainId, name, rpc, router, chainSelector, chainFamily, destNetworkName }) => ({
+      chainId: chainId || "",
       name: name || "",
       rpc: rpc || "",
       router: router || "",
       chainSelector: chainSelector || "",
-      chainFamily: chainFamily || ""
+      chainFamily: chainFamily || "",
+      destNetworkName: destNetworkName || ""
     }));
 
     fs.writeFileSync("ccip-chains.json", JSON.stringify(formatted, null, 2));
