@@ -58,3 +58,4 @@ docker-compose.override.yml
 
 #firebase
 # ccip_firebase_api.json
+index.html

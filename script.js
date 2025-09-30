@@ -1,2 +1,3 @@
-console.log("test");
-alert("11")
+const year = new Date().getFullYear();
+const copy=`<footer style="text-align: center;">&copy; ${year}</footer>`
+document.body.insertAdjacentHTML("beforeend",copy)
