@@ -1,0 +1,30 @@
+name: Clear Cache Script
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'script.js'
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache (@main)
+        run: |
+          set -e
+          PURGE_URL="https://purge.jsdelivr.net/gh/11Khoa/routerChainlink@main/script.js"
+          echo "Purging: $PURGE_URL"
+          HTTP_CODE=$(curl -s -o /tmp/out.json -w "%{http_code}" "$PURGE_URL")
+          cat /tmp/out.json
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "Purge failed with HTTP $HTTP_CODE"
+            exit 1
+          fi
+
+      - name: Warm up CDN
+        run: |
+          CDN_URL="https://cdn.jsdelivr.net/gh/11Khoa/routerChainlink@main/script.js"
+          echo "Warming up: $CDN_URL"
+          curl -sS "$CDN_URL" >/dev/null
